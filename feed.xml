@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:29F73622-7EF3-4BA6-9E45-88A595757DEA</id>
+ <title>Page list Atom feed</title>
+ <updated>2012-01-04T15:01:19-05:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:42E5E368-F190-42B3-BAA6-63FA44F09282</id>
+  <title>Home</title>
+  <title xmlns="urn:iweb:">Home</title>
+  <in-navbar xmlns="urn:iweb:">42E5E368-F190-42B3-BAA6-63FA44F09282</in-navbar>
+  <link rel="alternate" href="Home.html"/>
+  <updated>2012-01-04T15:01:19.001-05:00</updated>
+  <content>Home</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:A409C030-2D2E-4589-85BA-4EF8D72E4186</id>
+  <title>Research</title>
+  <title xmlns="urn:iweb:">Research</title>
+  <in-navbar xmlns="urn:iweb:">A409C030-2D2E-4589-85BA-4EF8D72E4186</in-navbar>
+  <link rel="alternate" href="Research.html"/>
+  <updated>2012-01-04T15:01:19.002-05:00</updated>
+  <content>Research</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:20C928CF-92FE-4695-BFC5-E3CC937EA824</id>
+  <title>Publications</title>
+  <title xmlns="urn:iweb:">Publications</title>
+  <in-navbar xmlns="urn:iweb:">20C928CF-92FE-4695-BFC5-E3CC937EA824</in-navbar>
+  <link rel="alternate" href="Publications.html"/>
+  <updated>2012-01-04T15:01:19.003-05:00</updated>
+  <content>Publications</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:808091F2-1F5B-4C85-97BB-4345F0395662</id>
+  <title>Teaching</title>
+  <title xmlns="urn:iweb:">Teaching</title>
+  <in-navbar xmlns="urn:iweb:">808091F2-1F5B-4C85-97BB-4345F0395662</in-navbar>
+  <link rel="alternate" href="Teaching.html"/>
+  <updated>2012-01-04T15:01:19.004-05:00</updated>
+  <content>Teaching</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:78DED0FF-54BA-4C36-9DBD-DF1405352BA9</id>
+  <title>Outreach</title>
+  <title xmlns="urn:iweb:">Outreach</title>
+  <in-navbar xmlns="urn:iweb:">78DED0FF-54BA-4C36-9DBD-DF1405352BA9</in-navbar>
+  <link rel="alternate" href="Outreach.html"/>
+  <updated>2012-01-04T15:01:19.005-05:00</updated>
+  <content>Outreach</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:1780B206-2814-4DBC-BCD3-4DEA34B1343A</id>
+  <title>Photography</title>
+  <title xmlns="urn:iweb:">Photography</title>
+  <in-navbar xmlns="urn:iweb:">1780B206-2814-4DBC-BCD3-4DEA34B1343A</in-navbar>
+  <link rel="alternate" href="Photography.html"/>
+  <updated>2012-01-04T15:01:19.006-05:00</updated>
+  <content>Photography</content>
+ </entry>
+</feed>
