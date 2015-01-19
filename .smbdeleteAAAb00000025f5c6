@@ -1,0 +1,500 @@
+   12  ls
+   13  cd hd71866/
+   14  ls
+   15  open .
+   16  cd plot
+   17  ls
+   18   ls -l
+   19  idl
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd ..
+   24  ls
+   25  cd hd118022/
+   26  ls
+   27  cd plot/
+   28  ls
+   29  open .
+   30  idl
+   31  la
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd  ..
+   36  ls
+   37  cd hd40312/
+   38  la
+   39  ls
+   40  cd plot/
+   41  ls
+   42  open .
+   43  lsw
+   44  ls
+   45  idl
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd hd4778/
+   52  ls
+   53  cd plot/
+   54  ls
+   55  open .
+   56  idl
+   57  PAPER1
+   58  ls
+   59  ./datarun 
+   60  ./datarun 
+   61  LSD
+   62  open .
+   63  exit
+   64  bash
+   65  exit
+   66  bash
+   67  bash
+   68  cd Research/Idl/Spectra/
+   69  ls
+   70  ls
+   71  cd alpha2cvn/
+   72  ls
+   73  idl
+   74  ls
+   75  open .
+   76  bash
+   77  cd Research/hometools/Convolve/
+   78  ls
+   79  cp hd112413_q_01nv.s in.s
+   80  vi in.s 
+   81  python convolv-0.7-obs.py > blah
+   82  cp in.s 13jun09Qreslow.s
+   83  cp hd112413_u_01nv.s in.s
+   84  vi in.s 
+   85  python convolv-0.7-obs.py > blah
+   86  cp in.s 13jun09Ureslow.s
+   87  cp hd112413_q_01nv.s in.s
+   88  vi in.s
+   89  python convolv-0.7-obs.py > blah
+   90  cp in.s 20jun10Qreslow.s
+   91  cp out.s 20jun10Qreslow.s
+   92  cp hd112413_u_01nv.s in.s
+   93  vi in.s
+   94  python convolv-0.7-obs.py > blah
+   95  cp out.s 20jun10Ureslow.s
+   96  rm 13jun09*
+   97  ls
+   98  cp hd112413_u_01nv.s in.s
+   99  vi in.s
+  100  python convolv-0.7-obs.py > blah
+  101  cp out.s 13jun09Ureslow.s
+  102  cp hd112413_q_01nv.s in.s
+  103  vi in.s
+  104  python convolv-0.7-obs.py > blah
+  105  cp out.s 13jun09Qreslow.s
+  106  cp hd112413_q_01nv.s in.s
+  107  vi in.s
+  108  python convolv-0.7-obs.py > blah
+  109  cp out.s 11jan09Qreslow.s
+  110  cp hd112413_u_01nv.s in.s
+  111  vi in.s
+  112  python convolv-0.7-obs.py > blah
+  113  cp out.s 11jan09Ureslow.s
+  114  exit
+  115  bash
+  116  exit
+  117  bash
+  118  cd Research/hometools/Convolve/
+  119  lx
+  120  ls
+  121  idl 
+  122  exit
+  123  /Users/powerbook/Research/hometools/Specclean/specin ; exit;
+  124  bash
+  125  bash
+  126  cd Research/
+  127  ls
+  128  cd hometools/
+  129  ls
+  130  cd ..
+  131  ls
+  132  cd 
+  133  cd Desktop/New-Cleanspec/
+  134  l
+  135  ls
+  136  gfortran removebeta3.f -o specclean
+  137  cp alpha2cvnq11feb98.s specin
+  138  specclean
+  139  ./specclean 
+  140  more specout 
+  141  gfortran remove.f -o specclean
+  142  ./specclean 
+  143  ./specclean 
+  144  bash
+  145  ls
+  146  bsh
+  147  bash
+  148  ls
+  149  cd Research/
+  150  ls
+  151  cd hometools/
+  152  ls
+  153  cd Convolve/
+  154  ls
+  155  cd Alpha2cvn/
+  156  ls
+  157  idl
+  158  ls
+  159  cp plotcomp.pro plotcomp_old.pro
+  160  cp hd112413_v_01nv.s in.s
+  161  python convolv-0.7-obs.py > blah
+  162  vi in.s
+  163  python convolv-0.7-obs.py > blah
+  164  cp out.s 11jan09Vreslow.s
+  165  cp hd112413_v_01nv.s in.s
+  166  python convolv-0.7-obs.py > blah
+  167  vi in.s 
+  168  python convolv-0.7-obs.py > blah
+  169  cp out.s 26thjuly08Vreslow.s
+  170  idl
+  171  ls
+  172  history
+  173  ls
+  174  cd ..
+  175  ls
+  176  cd HD32633/
+  177  ls
+  178  mv hd32633_v_01n.s hd32633_v_06feb98.s
+  179  mv hd32633_u_01n.s hd32633_u_06feb98.s
+  180  mv hd32633_q_01n.s hd32633_q_06feb98.s
+  181  mv hd32633_q_01n.s hd32633_q_07feb98.s
+  182  mv hd32633_u_01n.s hd32633_u_07feb98.s
+  183  mv hd32633_v_01n.s hd32633_v_07feb98.s
+  184  ls
+  185  cp hd32633_v_01
+  186  cd Research/Idl/Spectra/
+  187  ls
+  188  cd hd32633/
+  189  ls
+  190  idl
+  191  bash
+  192  hd32633/
+  193  ls
+  194  idl
+  195  MDI
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd 2CVn-Newdata-oldmap/
+  200  ls
+  201  sftpRMC8
+  202  exit
+  203  cd Research/
+  204  ls
+  205  cd hometools/
+  206  ls
+  207  cd Convolve/
+  208  ls
+  209  cd HD32633/
+  210  ls
+  211  ls
+  212  cp hd32633_v_01nv.s in.s
+  213  vi in.s
+  214  python convolv-0.7-obs.py > blah
+  215  cp out.s hd32633_v_24jan08.s
+  216  cp hd32633_q_01nv.s in.s
+  217  vi in.s
+  218  python convolv-0.7-obs.py > blah
+  219  cp out.s hd32633_q_24jan08.s
+  220  cp hd32633_u_01nv.s in.s
+  221  vi in.s
+  222  python convolv-0.7-obs.py > blah
+  223  cp out.s hd32633_u_24jan08.s
+  224  cp hd32633_u_01nv.s in.s
+  225  vi in.s
+  226  python convolv-0.7-obs.py > blah
+  227  cp out.s hd32633_u_25jan08.s
+  228  cp hd32633_q_01nv.s in.s
+  229  vi in.s
+  230  python convolv-0.7-obs.py > blah
+  231  cp out.s hd32633_q_25jan08.s
+  232  cp hd32633_v_01nv.s in.s
+  233  vi in.s
+  234  python convolv-0.7-obs.py > blah
+  235  cp out.s hd32633_v_25jan08.s
+  236  idl
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd HD71866/
+  241  ls
+  242  mv hd71866_v_01.s hd71866_v_25jan99.s
+  243  mv hd71866_q_01.s hd71866_q_25jan99.s
+  244  mv hd71866_u_01.s hd71866_u_25jan99.s
+  245  vi hd71866_v_25jan99.s 
+  246  vi hd71866_u_25jan99.s 
+  247  vi hd71866_q_25jan99.s 
+  248  mv hd71866_u_01.s hd71866_u_22jan99.s
+  249  mv hd71866_v_01.s hd71866_v_22jan99.s
+  250  mv hd71866_q_01.s hd71866_q_22jan99.s
+  251  vi hd71866_v_22jan99.s 
+  252  vi hd71866_u_22jan99.s 
+  253  vi hd71866_q_22jan99.s 
+  254  mv hd71866_v_01nv.s in.s
+  255  vi in.s
+  256  python convolv-0.7-obs.py > blah
+  257  mv out.s hd71866_v_10jan09.s
+  258  mv hd71866_u_01nv.s in.s
+  259  vi in.s
+  260  python convolv-0.7-obs.py > blah
+  261  mv out.s hd71866_u_10jan09.s
+  262  mv hd71866_q_01nv.s in.s
+  263  vi in.s
+  264  python convolv-0.7-obs.py > blah
+  265  mv out.s hd71866_q_10jan09.s
+  266  mv hd71866_q_01nv.s in.s
+  267  vi in.s
+  268  python convolv-0.7-obs.py > blah
+  269  mv out.s hd71866_q_26jan08.s
+  270  mv hd71866_u_01nv.s in.s
+  271  vi in.s
+  272  python convolv-0.7-obs.py > blah
+  273  mv out.s hd71866_u_26jan08.s
+  274  mv hd71866_v_01nv.s in.s
+  275  vi in.s
+  276  python convolv-0.7-obs.py > blah
+  277  mv out.s hd71866_v_26jan08.s
+  278  idl
+  279  exot
+  280  exit
+  281  bash
+  282  cd Research/Idl/Spectra/
+  283  ls
+  284  ls
+  285  ls
+  286  cd alpha2cvn/
+  287  ls
+  288  open .
+  289  idl
+  290  ls
+  291  MDI
+  292  ls
+  293  cd ..
+  294  ls
+  295  cd 2CVn-Newdata-oldmap/
+  296  ls
+  297  sftp RMC8
+  298  sftpRMC8
+  299  ls
+  300  idl 
+  301  open .
+  302  ls
+  303  sftpRMC8
+  304  idl
+  305  exit
+  306  bash
+  307  sftpRMC8
+  308  ls
+  309  MDI
+  310  ls
+  311  cd ..
+  312  ls
+  313  cd 2CVn-Newdata-oldmap/
+  314  ls
+  315  sftpRMC8
+  316  exit
+  317  bash
+  318  bash
+  319  RMC8
+  320  s
+  321  RMC8
+  322  RMC8
+  323  exit
+  324  bash
+  325  exit
+  326  bash
+  327  exit
+  328  bash
+  329  idl
+  330  cd Desktop/
+  331  ls
+  332  vi hd112413_v_01nv.s 
+  333  vi hd112413_v_01nvc.s 
+  334  xmgrace hd112413_v_01nv.s hd112413_v_01nvc.s 
+  335  bash
+  336  bash
+  337  cd Research/hometools/Convolve/Alpha2cvn/
+  338  ls
+  339  idl
+  340  ls
+  341  cd ..
+  342  ls
+  343  cd HD32633/
+  344  ls
+  345  idl 
+  346  cd ..
+  347  ls
+  348  cd Alpha2cvn/
+  349  ls
+  350  idl
+  351  ls
+  352  cd ..
+  353  ls
+  354  cd HD32633/
+  355  ls
+  356  idl
+  357  ls
+  358  cd 
+  359  cd ..
+  360  ls
+  361  cd 
+  362  ls
+  363  cd Research/hometools/Convolve/
+  364  ls
+  365  cd HD71866/
+  366  ls
+  367  idl
+  368  ls
+  369  cd Research/
+  370  ls
+  371  cd Idl/
+  372  ls
+  373  MDI
+  374  ls
+  375  cd ..
+  376  ls
+  377  cd 2CVn-Newdata-oldmap/
+  378  ls
+  379  idl
+  380  idl
+  381  ls
+  382  cd Research/
+  383  ls
+  384  cd hometools/Convolve/
+  385  ls
+  386  cd Alpha2cvn/
+  387  ls
+  388  idl
+  389  exit
+  390  bash
+  391  cd Research/hometools/Convolve/HD71866/
+  392  ls
+  393  idl
+  394  ;s
+  395  ls
+  396  cd ..
+  397  ls
+  398  cd Alpha2cvn/
+  399  ls
+  400  open. 
+  401  open .
+  402  idl
+  403  ls
+  404  cd ..
+  405  ls
+  406  cd HD71866/
+  407  idl
+  408  ls
+  409  cd ..
+  410  ls
+  411  cd HD32633/
+  412  ls
+  413  idl
+  414  exit
+  415  bash
+  416  exit
+  417  cd Research/
+  418  ls
+  419  cd hometools/
+  420  ls
+  421  cd Convolve/
+  422  ls
+  423  cd HD
+  424  cd HD32633/
+  425  ls
+  426  ls
+  427  idl
+  428  bash
+  429  MDI
+  430  ls
+  431  cd ..
+  432  ls
+  433  cd 2CVn-Newdata-oldmap/
+  434  ls
+  435  ls
+  436  idl
+  437  PAPER1
+  438  ./datarun
+  439  ./datarun
+  440  exit
+  441  bash
+  442  exit
+  443  cd Desktop/
+  444  ls
+  445  cd 2Cvn-mask-comp/
+  446  ls
+  447  latex report.tex 
+  448  dvipdf report.tex 
+  449  dvipdf report.dvi
+  450  dvipdf report.dvi
+  451  latex report.tex 
+  452  dvipdf report.dvi
+  453  latex report.tex 
+  454  dvipdf report.dvi
+  455  PAPER1
+  456  open .
+  457  ./datarun
+  458  ./datarun
+  459  ./datarun
+  460  ./datarun
+  461  exit
+  462  bash
+  463  exit
+  464  cd ~/.ssh
+  465  ls
+  466  ssh-keygen -t rsa -C "silvesterorama@googlemail.com"
+  467  open .
+  468  open .
+  469  ssh -T git@github.com
+  470  git config --global user.name "James Silvester"
+  471  git config --global user.email "silvesterorama@googlemail.com"
+  472  git config --global github.user jsilvester
+  473  git config --global github.token 082ddea54a18a5dde6f728ceb71c8868
+  474  exit
+  475  bash
+  476  PAPER1
+  477  ./datarun
+  478  ./datarun
+  479  open .
+  480  exit
+  481  bash
+  482  exit
+  483  ls
+  484  mkdir jsilvester.github.com
+  485  cd jsilvester.github.com/
+  486  ls
+  487  git init
+  488  touch README
+  489  git add README
+  490  ls
+  491  git commit -m 'first commit'
+  492  git remote add origin git@github.com:jsilvester/jsilvester.github.com.git
+  493  git push -u origin master
+  494  ls
+  495  git add index.html
+  496  git commit -m 'first commit'
+  497  git remote add origin git@github.com:jsilvester/jsilvester.github.com.git
+  498  git push -u origin master
+  499  exit
+  500  bash
+  501  cd jsilvester.github.com/
+  502  git status
+  503  git add *
+  504  git branch
+  505  git commit -am "adding everything"
+  506  git push
+  507  git pull
+  508  git push
+  509  git commit -am "updating index"
+  510  git push
+  511  history > githubcommands
